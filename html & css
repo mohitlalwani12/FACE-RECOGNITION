@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        li{
+            text-align: left;
+        }
+        body{
+            color: #111111;
+        }
+        .container { 
+  height: 200px;
+  position: relative;
+  border: 3px solid black; 
+}
+
+.left {
+  margin: 0;
+  position: absolute;
+  bottom: 30%;
+  left: 13%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.block:hover {
+  background-color: yellow;
+  color: black;
+}
+    </style>
+</head>
+<body style="background-color: darkolivegreen;">
+    <h1 style="text-align: center; padding: 50px; border: 3px solid black; ">FACE RECOGNITION SYSTEM</h1>
+    <div style="background-color: indianred; border: 3px solid black; color: #111111; padding: 15px;">
+       
+        <h2 style="text-align: center; padding: 15px; ">WHAT IS CONTAINED WITHIN THIS WEB APPLICATION?</h2>
+        <ul>
+            <li>Assume you're gaining access to your personal information and employing a face recognition technology to do so.</li><br><br>
+        </ul>
+        <h2 style="text-align: center; padding: 15px;">HOW TO USE A FACE RECOGNITION SYSTEM WEB APPLICATION :</h2>
+        <ul>
+            <li>Let's see the working of this system.</li>
+            <li>By pressing the bottom-right button, you can access the facial recognition system.</li>
+            <li>When the system is up and running, place your face in front of the camera.</li>
+            <li>If the face displayed matches the data of the user, the information will be displayed; else, "Identity unmatched, Access forbidden!" will be printed.</li>
+             <li>This is how this system works.</li>
+            </ul>
+           
+    </div><br><br>
+    <div class="container">
+        <h4 style="padding: 10px;">CLICK ON THE BUTTON GIVEN BELOW TO SHOW THE WORKING OF THIS SYSTEM.</h4>
+        <div class="left">
+    <button class="block" type="button" onclick="alert('System is opening, please wait!')"><b>OPEN FACE RECOGNITION SYSTEM</b></button>
+ </div>
+ </div>
+</body>
+</html>
