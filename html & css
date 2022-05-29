@@ -28,7 +28,7 @@
   transform: translate(-50%, -50%);
 }
 .block:hover {
-  background-color: yellow;
+  background-color: #ddd;
   color: black;
 }
     </style>
@@ -52,7 +52,7 @@
            
     </div><br><br>
     <div class="container">
-        <h4 style="padding: 10px;">CLICK ON THE BUTTON GIVEN BELOW TO SHOW THE WORKING OF THIS SYSTEM.</h4>
+        <h4 style="padding: 10px;">CLICK ON THE BUTTON GIVEN BELOW TO SEE THE WORKING OF THIS SYSTEM.</h4>
         <div class="left">
     <button class="block" type="button" onclick="alert('System is opening, please wait!')"><b>OPEN FACE RECOGNITION SYSTEM</b></button>
  </div>
